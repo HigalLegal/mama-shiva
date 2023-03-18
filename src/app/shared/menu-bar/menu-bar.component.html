@@ -1,0 +1,13 @@
+<nav [ngStyle]="styleNg">
+  <button>&#9776;</button>
+  <div class="container__menu-bar">
+    <ul>
+      <li><a [routerLink]="'/'" class="container__element">Home</a></li>
+      <li><a [routerLink]="'/sobre'" class="container__element">Sobre nós</a></li>
+      <li><a [routerLink]="'/cardapio'" class="container__element">Cardápio</a></li>
+      <li><a [routerLink]="'/missao'" class="container__element">Missão e valores</a></li>
+      <li><button (click)="changePosition()" class="container__element">{{ button }}</button></li>
+    </ul>
+  </div>
+</nav>
+<!--(focus)="changeBackground1()" (blur)="changeBackground2()"-->

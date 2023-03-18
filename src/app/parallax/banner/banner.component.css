@@ -1,0 +1,8 @@
+.container__menu {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../../../assets/images/banner1.png");
+}

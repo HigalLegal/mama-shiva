@@ -1,0 +1,32 @@
+.container__description {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../../../assets/images/tajmahal.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  width: 350px;
+  background-color: rgba(53, 32, 5, 0.5);
+  border-radius: 5px;
+}
+
+.container__presentation > p {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.container__text {
+  color: #Ff9933;
+}

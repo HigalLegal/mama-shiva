@@ -1,0 +1,44 @@
+* {
+  color: #Ff9933;
+}
+
+.container__menu {
+  background-image: url("../../../assets/images/com-desfoque.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container__general {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.container__food_general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__food_general > h1 {
+  margin-bottom: 25px;
+}
+
+.container__food {
+  margin-bottom: 10px;
+  padding: 8px 8px 8px 8px;
+}
+
+.container__food:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.container__food > span {
+  font-size: 15px;
+}
+
+.container__name {
+  margin-right: 25px;
+}

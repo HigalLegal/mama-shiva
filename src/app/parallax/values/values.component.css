@@ -1,0 +1,34 @@
+* {
+  color: #FBF1CC;
+}
+
+.container__values {
+  background-image: url("../../../assets/images/fundo-valores.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 450px;
+  width: 600px;
+  border-radius: 25px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container__text > ul > li {
+  list-style: none;
+}
+
+.container__text > ul > li > h3 > span {
+  color: #Ff9933;
+}

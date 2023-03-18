@@ -1,0 +1,37 @@
+<div class="container__menu">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container__general">
+
+    <div class="container__food_general">
+      <h1>Comidas italianas</h1>
+      <div class="container__food" *ngFor="let foodItalian of foodsItalian">
+        <span class="container__name">{{ foodItalian.name }}</span>
+        <span class="container__price">Por {{ foodItalian.price | currency:"BRL":"symbol":'1.2-2':"pt" }}</span>
+        <hr>
+      </div>
+    </div>
+
+    <div class="container__food_general">
+      <h1>Comidas indianas</h1>
+      <div class="container__food" *ngFor="let foodIndian of foodsIndian">
+        <span class="container__name">{{ foodIndian.name }}</span>
+        <span class="container__price">Por {{ foodIndian.price | currency:"BRL":"symbol":'1.2-2':"pt" }}</span>
+        <hr>
+      </div>
+    </div>
+
+    <div class="container__food_general">
+      <h1>Bebidas</h1>
+      <div class="container__food" *ngFor="let drink of drinks">
+        <span class="container__name">{{ drink.name }}</span>
+        <span class="container__price">Por {{ drink.price | currency:"BRL":"symbol":'1.2-2':"pt" }}</span>
+        <hr>
+      </div>
+    </div>
+
+  </div>
+</div>

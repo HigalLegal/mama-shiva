@@ -1,0 +1,50 @@
+@media (max-width: 600px) {
+
+  nav > button {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+
+
+  .container__menu-bar {
+    justify-content: flex-start;
+    margin-left: 29px;
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+
+  .container__menu-bar > ul {
+    flex-direction: column;
+  }
+
+  .container__menu-bar > ul > li {
+    height: 0;
+    overflow: hidden;
+  }
+
+  nav > button:focus ~ .container__menu-bar {
+    height: 180px;
+    overflow: visible;
+    padding-bottom: 10px;
+    transition: all 0.5s;
+  }
+
+  nav > button:focus ~ .container__menu-bar > ul > li {
+    height: 80px;
+    overflow: visible;
+    transition: all 1s;
+  }
+
+  nav:has(> button:focus)::after {
+    height: 100%;
+  }
+
+}
+
+@media (max-width: 300px) {
+  .container__menu-bar > ul > li > a {
+    font-size: 15px;
+  }
+}

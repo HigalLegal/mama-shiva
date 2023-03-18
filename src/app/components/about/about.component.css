@@ -1,0 +1,43 @@
+* {
+  font-family: "Calisto MT";
+}
+
+.container__about {
+  background-image: url("../../../assets/images/fundo-about.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 525px;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(255, 153, 51, 0.6);
+}
+
+.container__text:hover {
+  background-color: rgba(251, 241, 204, 0.6);
+}
+
+.container__text > h1 {
+  margin-bottom: 10px;
+}
+
+.container__text > p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.container__text > p > span {
+  font-weight: bold;
+}

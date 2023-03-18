@@ -1,0 +1,11 @@
+@media (max-width: 850px) {
+  .container__general {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container__food_general {
+    margin-bottom: 40px;
+  }
+
+}
